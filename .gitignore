@@ -1,0 +1,9 @@
+# Idea
+.idea
+*.iml
+
+# Python
+.pytest_cache
+
+# Allure
+allure-results
