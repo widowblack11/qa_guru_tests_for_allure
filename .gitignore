@@ -4,6 +4,6 @@
 
 # Python
 .pytest_cache
-
+__pycache__
 # Allure
 allure-results

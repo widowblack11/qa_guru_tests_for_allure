@@ -43,7 +43,7 @@ def test_should_create_pull_request(web_driver):
 @pytest.mark.regress
 @jira_issues("AE-2")
 @allure.title("Deleting existing issue for authorized user")
-def test_should_create_pull_request(web_driver):
+def test_should_delete_pull_request(web_driver):
     steps.open_pull_requests_page(OWNER, REPO)
     steps.create_pull_request_from_branch(BRANCH)
     steps.should_see_pull_request_for_branch(BRANCH)
